@@ -1,0 +1,62 @@
+/* start global */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: "Open Sans", serif;
+    color: #eee;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: url("../images/profile.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: #eee;
+}
+p{
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+img{
+    width:100%;
+}
+/* end global */
+
+
+/* start reusable */
+/* end  reusable  */
+
+/* start header */
+header{
+    width: 100%;
+    height: 100vh;
+}
+.top-nav{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: #1B1B1B;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+/* end header */
+
+
+/* start about */
+/* end about */
+
+
+/* start service */
+
+/* end service */
+
+/* start portfolio */
+
+/* end portfolio */
