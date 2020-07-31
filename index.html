@@ -177,8 +177,29 @@
       <h1>Contact</h1>
       <h6>Have a project/Idea? Let's work together</h6>
     </div>
+    <form action="">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter Your Name..." required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter Your Email..." required>
+      <label for="email">Services:</label>
+      <select name="services" id="service">
+        <option value="Web Development"></option>
+        <option value="Web Design"></option>
+        <option value="API Design"></option>
+      </select>
+      <label for="subject">Subject:</label>
+      <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+      <input type="submit" value="Submit">
+    </form>
   </div>
 </section>
+<footer>
+  <div class="up" id="up">
+    <i class="fas fa-chevron-up"></i>
+    <p>&copy; 2020 Elukoye</p>
+  </div>
+</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
