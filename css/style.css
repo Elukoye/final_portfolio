@@ -34,6 +34,11 @@ img{
 
 
 /* start reusable */
+.container{
+    width: 90%;
+    max-width: 120rem;
+    height: 100%;
+}
 /* end  reusable  */
 
 /* start header */
@@ -70,7 +75,7 @@ li{
 }
 .nav-link:hover,
 .nav-link:focus{
-    background: linear-gradient( to top, #fc00ff, #00dbde);
+    background: linear-gradient( to top, #cf9f6b, #edcca8);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -113,7 +118,7 @@ li{
     transform: rotate(-45deg);
 }
 .bar{
-    background: linear-gradient(to right,#fc00ff,#00dbde);
+    background: linear-gradient(to right,#cf9f6b, #edcca8);
     width: 100%;
     height: 4px;
     border-radius: 0.8rem;
@@ -147,13 +152,68 @@ li{
     z-index: 1;
 }
 .landing-text h1{
-    font-size: 6rem;
+    font-size: 5rem;
     font-family: 'Roboto Mono', monospace;
+    background: linear-gradient( to top, #cf9f6b, #edcca8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 1rem;
+}
+
+.landing-text h6{
+    font-size: 2rem;
+    font-weight: 400;
 }
 /* end header */
 
 
 /* start about */
+.about .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-heading{
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 0;
+    margin-bottom: 6rem;
+}
+.about-heading h1{
+    font-size: 5.5rem;
+    opacity: 0.3;
+}
+.about-heading h6{
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+.profile-img{
+    flex: 1;
+    margin-right: 5rem;
+}
+.about-details{
+    flex: 1;
+}
+.social-media{
+    margin-top: 2.5rem;
+}
+.social-media i{
+    font-size: 1.88rem;
+    transition: color 650ms;
+}
+.fa-linkedin-in:hover{
+    color: #0e76a8;
+}
+.fa-twitter:hover{
+    color:#1da1f2 ;
+}
+.fa-github-square:hover{
+    color:#F4CBB2 ;
+}
+.fa-medium-m:hover{
+    color:#00ab6c ;
+}
 /* end about */
 
 
