@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* links  */
+.card-text a{
+    color: #ff6961;  
+}
+/* header start */
+.navbar-brand,.nav-item a{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.5rem; 
+      
+}
+/* header end */
+
+
+/* jumbotron start */
+.display-4{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1rem;
+    
+}
+.lead{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    
+}
+mark{
+    color: #ff6961;
+}
+
+/* jumbotron end */
+
+/* project container start */
+.project-title{
+    font-family: 'Noto Sans JP', sans-serif; 
+    font-size: 2.5rem;
+    font-weight: 500; 
+     
+   
+}
+
+
+/* project container end */
+
+/* footer start */
+.card-header{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+}
+.card-text{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 0.8rem;
+}
+/* footer end */
+
+/* social media icons start*/
+.social-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fab{
+    font-size:1.7rem;
+    color: rgb(33, 36, 34, 0.7);
+}
+.fa-linkedin-in:hover{
+    color: #0e76a8;
+}
+.fa-twitter:hover{
+    color:#1da1f2 ;
+}
+.fa-github-square:hover{
+    color:#000 ;
+}
+.fa-medium-m:hover{
+    color:#000 ;
+}
+/* social media icons end*/
+
+/* devcon icons start */
+.devicon-rails-plain-wordmark,
+.devicon-javascript-plain{
+    font-size: 1.2em;
+    color: rgb(33, 36, 34, 0.7);
+    margin-right: 1rem;
+}
+.devicon-postgresql-plain-wordmark,
+.devicon-bootstrap-plain{
+    font-size: 1.2em;
+    color: rgb(106, 124, 114);
+    margin-right: 1rem;
+}
+.devicon-ruby-plain,
+.devicon-git-plain,
+.devicon-react-original-wordmark{
+    font-size: 1.2em;
+    color: rgb(106, 124, 114);
+    margin-right: 1rem;
+}
+/* devcon icons end*/ 
