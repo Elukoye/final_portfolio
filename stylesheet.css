@@ -13,16 +13,17 @@
 }
 /* header end */
 
-
 /* jumbotron start */
 .display-4{
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 1rem;
+    letter-spacing: 0.06rem;
     
 }
 .lead{
     font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
+    letter-spacing: 0.06rem;
+    font-size: 1rem;
     
 }
 mark{
@@ -32,12 +33,39 @@ mark{
 /* jumbotron end */
 
 /* project container start */
+
 .project-title{
     font-family: 'Noto Sans JP', sans-serif; 
     font-size: 2.5rem;
-    font-weight: 500; 
-     
-   
+    font-weight: 500;   
+}
+.project-buttons .fa-github{
+    font-size: 1rem;
+    color:#ff6961 ;
+
+}
+.project-buttons a{
+ color:#ff6961 ;
+ font-family: "Roboto",sans-serif;
+ font-size: 0.8rem;
+ margin: 0.5rem;
+ border: 0.5px solid #ff6961;
+}
+
+.card{
+    box-shadow: 10px 10px 5px 0px rgba(255.0, 105.0, 97.0, 0.4);
+    margin: 1.2rem;
+}
+.card:hover{
+    box-shadow: 0px 0px 5px 11px rgba(255.0, 105.0, 97.0, 0.7);
+}
+.private-events .card-text,
+.goals_app .card-text,
+.pic .card-text,
+.search .card-text{
+    font-family: "Roboto",sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
 }
 
 
@@ -54,6 +82,15 @@ mark{
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 0.8rem;
 }
+.card-footer{
+    box-shadow: none;
+}
+.text-footer{
+    font-size: 0.7rem;
+    font-family: "roboto",sans-serif;
+    margin-top: 1rem;
+    letter-spacing: 0.1rem;
+}
 /* footer end */
 
 /* social media icons start*/
@@ -64,7 +101,7 @@ mark{
     justify-content: space-evenly;
 }
 .fab{
-    font-size:1.7rem;
+    font-size:1.9rem;
     color: rgb(33, 36, 34, 0.7);
 }
 .fa-linkedin-in:hover{
@@ -84,13 +121,13 @@ mark{
 /* devcon icons start */
 .devicon-rails-plain-wordmark,
 .devicon-javascript-plain{
-    font-size: 0.8em;
+    font-size: 1.21em;
     color: rgb(33, 36, 34, 0.7);
     margin-right: 1rem;
 }
 .devicon-postgresql-plain-wordmark,
 .devicon-bootstrap-plain{
-    font-size: 1.2em;
+    font-size: 0.9em;
     color: rgb(106, 124, 114);
     margin-right: 1rem;
 }
