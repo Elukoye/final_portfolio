@@ -26,7 +26,7 @@
 }
 /* portfolio */
 .portfolio{
-    background-color:#E5E5E5;
+    background-color:#fff;
     width: 100%;
     height: 100vh;
 }
@@ -38,7 +38,7 @@
 }
 /* contact */
 .contact{
-    background-color:#E5E5E5;
+    background-color:#fff;
     width: 100%;
     height: 60vh;
 }
