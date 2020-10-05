@@ -1,6 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&display=swap');
+/* global */
+#colored{
+    color: #F55800;
+    margin-left: 0;
+    font-size: 28px;
+}
+/* social-links */
+.social-links{
+  margin-top: 2.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  list-style: none;
+  padding: 1rem;
+}
+.fab{
+  color: #CFCFCF;
+  font-size: 1.5rem;
 
+}
 /* navigtion */
 .navbar{
     background: #3E3C3C;
@@ -20,26 +41,213 @@
 
 /* landing page */
 .landing-page{
-    background-color: #1C1A19;
+    background: #1C1A19;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
+.landing-text h1{
+    color: #F55800;
+    font-family: 'crete round',sans-serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 81.5px;
+    margin: 7.5rem 3rem 0 3rem ;
+}
+
+.landing-text h6,p{
+    color: #F4F5F7;
+}
+.landing-text h6{
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.landing-text p{
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
 /* portfolio */
 .portfolio{
-    background-color:#fff;
+    background:#fff;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
+.portfolio span{
+  color: #091E42;
+  font-family: 'Crete round',sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height:52px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+}
+.portfolio h4{
+font-family: 'Crete Round',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 52px;
+display: flex;
+align-items: center;
+color: #091E42;
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+margin: 0px 24px;
+}
+.portfolio p{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #091E42;
+  flex: none;
+  order: 1;
+  align-self: center;
+  flex-grow: 0;
+  margin: 0px 24px;
+  letter-spacing: 0.01em;
+}
+.portfolio img{
+  width: 684px;
+  height: 448px;
+  left: 0px;
+  top: 0px;
+}
+.proj-btn{
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  font-family: 'Inter',sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  align-items: flex-start;
+  padding: 10px 0px 0px 12px;
+  width: 95px;
+  height: 40px;
+  left: 129px;
+  top: 0px;
+}
+.proj-btn .btn{
+  flex: none;
+  order: 2;
+  align-self: center;
+  flex-grow: 0;
+  margin: 12px 3px;
+  background: #FFFFFF;
+  border: 1px solid #8993A4;
+  box-sizing: border-box;
+}
+.card{
+  background: linear-gradient(179.4deg,
+   rgba(38, 38, 38, 0) 0.81%,
+   rgba(38, 38, 38, 0.9) 84.03%)
+}
+.card img{
+  height: 435px;
+  width: 369px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  
+}
+.card-body p {
+  color: #fff;
+  font-family: 'Inter',sans-serif;
+  font-weight:300;
+  font-style:normal;
+  font-size:17px ;
+  line-height: 24px;
+  flex: none;
+  order: 1;
+  align-self: center;
+  flex-grow: 0;
+  margin: 0px 24px;
+}
+.card-body h5{
+  color: #fff;
+  font-family: 'crete round',sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:28px ;
+  line-height: 44px;
+  flex: none;
+  order: 0;
+  align-self: center;
+  flex-grow: 0;
+  margin: 0px 24px;
+}
+.card-link button{
+  background-color:#F55800 ;
+  color: #fff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.card-link button:hover{
+  color: #fff;
+}
+
+
+.grp-btn{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.grp-btn button{
+  background: rgba(255, 255, 255, 0.24);
+  color: #fff;
+  font-family: 'Inter',sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.source-btn{
+  background-color:#F55800 ;
+  margin: 1rem;
+  width: 124px;
+  height: 48px;
+  padding: 0.25rem;
+}
+.source-btn a{
+  color: #fff;
+  font-family: 'Inter',sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+
+
+
+
 /* about */
-.about{
-    background-color: #1C1A19;
+.abt-container{
+    background: #1C1A19;
     width: 100%;
-    height: 100vh; 
+    min-height: 100vh; 
 }
 /* contact */
 .contact{
     background-color:#fff;
     width: 100%;
-    height: 60vh;
+    min-height: 60vh;
 }
 

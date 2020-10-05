@@ -14,69 +14,255 @@
 
 <body>
   <!-- navigation -->
-  <nav class="navbar navbar-expand-lg ">
-    <a class="navbar-brand " href="#Elukoye">Elukoye</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item ">
-          <a class="nav-link" href="#portfolio">Portfolio <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i class="far fa-envelope"></i></a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <!-- landing page -->
-  <div class="landing-page" id="Elukoye">
-    <div class="container">
+  <header id="Elukoye">
+    <div class="container-fluid p-0 landing-page">
       <div class="row">
-
+        <div class="col-md-12 col-sm-12">
+          <nav class="navbar navbar-expand-lg ">
+            <a class="navbar-brand " href="#Elukoye">Elukoye</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                  <a class="nav-link" href="#portfolio">Portfolio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i
+                      class="far fa-envelope"></i></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- landing page -->
+      <div class="row " id="Elukoye">
+        <div class=" col-md-12 col-sm-12">
+          <div class="landing-text ">
+            <h1>Hey There.<br>I'm Elukoye</h1>
+            <h6>I’m a <span id="colored">certified </span>Developer</h6>
+            <p>I enjoy building applications with Ruby,Rails and Bootstrap.<br>
+              I <span id="colored">mentor</span> students at Microverse and occasionally <span id="colored">speak</span>
+              at the London Java Community.<br>
+              I'm open to full-stack remote roles.
+            </p>
+          </div>
+          <ul class="social-links">
+            <a href="https://www.linkedin.com/in/emogene-lukoye-a78b051a3/" target="_blank">
+              <li><i class="fab fa-linkedin-in"></i></li>
+            </a>
+            <a href="https://medium.com/@lukoyedith" target="_blank">
+              <li><i class="fab fa-medium"></i></li>
+            </a>
+            <a href="https://twitter.com/Elukoye1" target="_blank">
+              <li><i class="fab fa-twitter"></i></li>
+            </a>
+            <a href="https://github.com/Elukoye" target="_blank">
+              <li><i class="fab fa-github"></i></li>
+            </a>
+          </ul>
+        </div>
       </div>
     </div>
+  </header>
+  <main>
+    <!-- portfolio -->
+    <section id="portfolio">
+      <div class="container portfolio">
+        <span>My Recent works</span>
+        <div class="row mb-3">
+          <div class=" col-lg-7 col-md-12 col-sm-12">
+            <img src="/images/pictocode.png" class="img-fluid" alt="project-pic">
+          </div>
+          <div class="col-lg-5 col-md-12 col-sm-12">
+            <h4>Pic To Code</h4>
+            <p>
+              A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
+              industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+            </p>
+            <div class="proj-btn">
+              <button type="button" class="btn btn-outline-secondary btn-sm">JavaScript</button>
+              <button type="button" class="btn btn-outline-secondary btn-sm">React</button>
+              <button type="button" class="btn btn-outline-secondary btn-sm">Tailwindcss</button>
+              <button type="button" class="btn btn-outline-secondary btn-sm">Netlify</button>
+            </div>
+            <div class="source-btn">
+              <a class="btn" href="https://github.com/Elukoye/PicToCode" target="_blank" role="button">Live Demo</a>
+            </div>
 
-  </div>
-  </div>
-  <!-- Portfolio -->
-  <div class="portfolio" id="portfolio">
-    <div class="container">
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3">
+          <div class="col mb-4 ">
+            <div class="card">
+              <img src="/images/goals_app.png" class="card-img-top img-fluid" alt="goals_app">
+              <div class="card-body ">
+                <h5 class="card-title">Goals App</h5>
+                <p class="card-text ">
+                  A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
+                  industry's standard
+                </p>
+              </div>
+              <div class="mb-2 grp-btn">
+                <button type="button" class="btn  btn-sm">Rails</button>
+                <button type="button" class="btn  btn-sm">RSpec</button>
+                <button type="button" class="btn  btn-sm">Bootstrap</button>
+                <button type="button" class="btn  btn-sm">Heroku</button>
+              </div>
+            </div>
+            <a href="https://github.com/Elukoye/goals_app" class="card-link" target="_blank">
+              <button type="button" class="btn  btn-lg btn-block">Live Demo</button>
+            </a>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="/images/private.png" class="card-img-top img-fluid" alt="private_app">
+              <div class="card-body">
+                <h5 class="card-title">Private Events</h5>
+                <p class="card-text"> A daily selection of privately personalized reads; no accounts or sign-ups
+                  required. has been the
+                  industry's standard
+                </p>
+              </div>
+
+              <div class=" mb-2 grp-btn">
+                <button type="button" class="btn  btn-sm">Rails</button>
+                <button type="button" class="btn  btn-sm">PostgreSQL</button>
+                <button type="button" class="btn  btn-sm">RSpec</button>
+                <button type="button" class="btn  btn-sm">Heroku</button>
+              </div>
+            </div>
+            <a href="https://github.com/Elukoye/Associations" class="card-link" target="_blank">
+              <button type="button" class="btn  btn-lg btn-block">Live Demo</button>
+            </a>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card ">
+              <img src="/images/search_n_build.png" class="card-img-top img-fluid" alt="api_app">
+              <div class="card-body">
+                <h5 class="card-title">Search&Build API</h5>
+                <p class="card-text"> A daily selection of privately personalized reads; no accounts or sign-ups
+                  required. has been the
+                  industry's standard
+                </p>
+              </div>
+              <div class="mb-2 grp-btn">
+                <button type="button" class="btn  btn-sm">Rails</button>
+                <button type="button" class="btn  btn-sm">Postman</button>
+                <button type="button" class="btn  btn-sm">RSpec</button>
+                <button type="button" class="btn  btn-sm">PostgreSQL</button>
+              </div>
+            </div>
+            <a href="https://github.com/Elukoye/search_n_build" class="card-link" target="_blank">
+              <button type="button" class="btn  btn-lg btn-block">Live Demo</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about me -->
+    <section id="about">
+      <div class="container abt-container">
+        <div class="row row-1">
+          <div class="col-mb-12 col-sm-12">
+            <div>
+              <h1>About Me</h1>
+            </div>
+            <div>
+              <p>
+                Hello I’m a software developer! I can help you build a product , feature or website Look through some of
+                my work and experience! If you like what you see and have a project you need coded, don’t hestiate to
+                contact me.
+              </p>
+            </div>
+            <div class="resume-btn">
+              <a class="btn btn-primary" href="#" role="button">Get My Resume</a>
+            </div>
+          </div>
+        </div>
+        <div class="row row-2">
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <h4>Language</h4>
+            <ul>
+              <li>Ruby</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <h4>Framework</h4>
+            <ul>
+              <li>Bootstrapli>
+              <li>Rails</li>
+              <li>Tailwindcss</li>
+              <li>RSpec</li>
+              <li>Cucumber</li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <h4>Skills</h4>
+            <ul>
+              <li>Agile Development</li>
+              <li>MVC Architecture</li>
+              <li>Github</li>
+              <li>Terminal</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
       <div class="row">
+        <div class="col col-lg-5">
+          <div>
+            I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+          </div>
+        </div>
+        <div class="col-lg-auto">
+          <form action="https://formspree.io/f/xzbkddkz" method="POST">
+            <label>
+            Your email:
+            <input type="text" name="_replyto">
+          </label>
+          </div>
+          <label>
+            Your message:
+            <textarea name="message"></textarea>
+          </label>
+        
+          <!-- your other form fields go here -->
+        
+          <button type="submit">Send</button>
+        </form>
+
 
       </div>
-    </div>
-
-  </div>
-  </div>
-  <!-- About me -->
-  <div class="about" id="about">
-    <div class="container">
-      <div class="row">
 
       </div>
-    </div>
-
-  </div>
-  </div>
-  <!-- contacts -->
-  <div class="contact" id="contact">
-    <div class="container">
-      <div class="row">
-
       </div>
-    </div>
+    </section>
+  </main>
 
-  </div>
-  </div>
+
+
+
+
+
+
+
+
+
 
 
 
