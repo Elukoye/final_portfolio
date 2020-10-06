@@ -18,7 +18,7 @@
   padding: 1rem;
 }
 .fab{
-  color: #CFCFCF;
+  color: #aca5a5;
   font-size: 1.5rem;
 
 }
@@ -239,10 +239,73 @@ margin: 0px 24px;
 
 
 /* about */
-.abt-container{
+#about{
     background: #1C1A19;
     width: 100%;
     min-height: 100vh; 
+}
+.abt-container h1{
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 81px;
+  color: #F55800;
+  margin-top: 5rem;
+}
+.abt-text p{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  color: #F4F5F7;
+  margin-bottom: 5rem;
+  
+  
+}
+
+.resume-btn a,
+.contact-form button{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  background: #F55800;
+  color: #fff;
+  margin: 0.2rem;
+}
+
+.line{
+  border-bottom: 1px solid #FFFFFF;
+}
+#heading{
+  color: #FFFFFF;
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 44px;
+  margin-top: 1rem;
+}
+.skills{
+  margin-bottom: 2.5rem;
+  
+}
+.skills li{
+  list-style: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight:300;
+  font-size: 16px;
+  line-height: 43px;
+  display: flex;
+  color: #FFFFFF;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
 }
 /* contact */
 .contact{
@@ -250,4 +313,29 @@ margin: 0px 24px;
     width: 100%;
     min-height: 60vh;
 }
-
+.contact-text{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 52px;
+  color: #262626;
+  margin-top: 9rem;
+  margin: 4rem;
+}
+.contact-form{
+  margin-top: 9rem;
+  margin: 4rem;
+}
+.form-group label,
+.form-group textarea{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+}
+.contact-form button{
+  margin-left: 0;
+}

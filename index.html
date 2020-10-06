@@ -10,6 +10,17 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
   <script src="https://kit.fontawesome.com/34d23f57b1.js" crossorigin="anonymous"></script>
   <title>Elukoye Portfolio</title>
+
+  <script src="https://kit.fontawesome.com/34d23f57b1.js" crossorigin="anonymous"></script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167945307-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-167945307-1');
+  </script>
 </head>
 
 <body>
@@ -35,9 +46,8 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#contact">Contact</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i
-                      class="far fa-envelope"></i></a>
+                <li class="nav-item resume-btn">
+                  <a class="btn" href="#" role="button">Get My Resume</a>
                 </li>
               </ul>
             </div>
@@ -86,8 +96,9 @@
           <div class="col-lg-5 col-md-12 col-sm-12">
             <h4>Pic To Code</h4>
             <p>
-              A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-              industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+              A revolutionary app build with Axios.js that lets a user upload a picture of code written by hand 
+              and converts it to text that can be copied to a clipboard or text editor;
+              no accounts or sign-ups required. 
             </p>
             <div class="proj-btn">
               <button type="button" class="btn btn-outline-secondary btn-sm">JavaScript</button>
@@ -108,8 +119,8 @@
               <div class="card-body ">
                 <h5 class="card-title">Goals App</h5>
                 <p class="card-text ">
-                  A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-                  industry's standard
+                 A  Ruby on Rails productivity management tool that lets a user create categories and 
+                 projects and keep track of the number of projects created.
                 </p>
               </div>
               <div class="mb-2 grp-btn">
@@ -128,9 +139,8 @@
               <img src="/images/private.png" class="card-img-top img-fluid" alt="private_app">
               <div class="card-body">
                 <h5 class="card-title">Private Events</h5>
-                <p class="card-text"> A daily selection of privately personalized reads; no accounts or sign-ups
-                  required. has been the
-                  industry's standard
+                <p class="card-text"> An Event scheduling app that lets a user create events,
+                  manage invites,follow other event organizers and attend events posted by other users.
                 </p>
               </div>
 
@@ -151,9 +161,8 @@
               <img src="/images/search_n_build.png" class="card-img-top img-fluid" alt="api_app">
               <div class="card-body">
                 <h5 class="card-title">Search&Build API</h5>
-                <p class="card-text"> A daily selection of privately personalized reads; no accounts or sign-ups
-                  required. has been the
-                  industry's standard
+                <p class="card-text"> A Ruby on Rails API that can be used to create a tutorials dashboard to
+                  let users selected and book a date for when they would like to do it.
                 </p>
               </div>
               <div class="mb-2 grp-btn">
@@ -173,85 +182,107 @@
     <!-- about me -->
     <section id="about">
       <div class="container abt-container">
-        <div class="row row-1">
-          <div class="col-mb-12 col-sm-12">
+        <div class="row line mb-4 justify-content-center">
+          <div class="col-mb-12 col-sm-12 text-center">
             <div>
               <h1>About Me</h1>
             </div>
-            <div>
+            <div class="abt-text ">
               <p>
-                Hello I’m a software developer! I can help you build a product , feature or website Look through some of
-                my work and experience! If you like what you see and have a project you need coded, don’t hestiate to
+                Hello I’m a software developer! I can help you build a<br> product , feature or website Look through
+                some of
+                my work<br> and experience! If you like what you see and have a project<br> you need coded, don’t
+                hestiate to
                 contact me.
               </p>
             </div>
-            <div class="resume-btn">
-              <a class="btn btn-primary" href="#" role="button">Get My Resume</a>
-            </div>
           </div>
         </div>
-        <div class="row row-2">
-          <div class="col-lg-4 col-md-12 col-sm-12">
-            <h4>Language</h4>
-            <ul>
+        <div class="row row-2 justify-content-center ">
+          <div class="col-lg-4 col-md-12 col-sm-12 text-center mt-4">
+            <ul class="skills">
+              <li id="heading">Language</li>
               <li>Ruby</li>
-              <li>HTML5</li>
               <li>CSS3</li>
-
+              <li>HTML5</li>
             </ul>
           </div>
-          <div class="col-lg-4 col-md-12 col-sm-12">
-            <h4>Framework</h4>
-            <ul>
-              <li>Bootstrapli>
-              <li>Rails</li>
-              <li>Tailwindcss</li>
+          <div class="col-lg-4 col-md-12 col-sm-12  text-center ">
+            <ul class="skills">
+              <li id="heading">Framework</li>
               <li>RSpec</li>
               <li>Cucumber</li>
+              <li>Bootstrap4</li>
+              <li>Tailwindcss</li>
+              <li>Ruby on Rails</li>
             </ul>
           </div>
-          <div class="col-lg-4 col-md-12 col-sm-12">
-            <h4>Skills</h4>
-            <ul>
-              <li>Agile Development</li>
-              <li>MVC Architecture</li>
+          <div class="col-lg-4 col-md-12 col-sm-12  text-center">
+            <ul class="skills">
+              <li id="heading">Skills</li>
               <li>Github</li>
               <li>Terminal</li>
+              <li>MVC Architecture</li>
+              <li>Agile Development</li>
             </ul>
           </div>
         </div>
       </div>
     </section>
-    <section>
-      <div class="row">
-        <div class="col col-lg-5">
-          <div>
+    <section id="contact">
+      <div class="row justify-content-center">
+        <div class="col col-lg-5 col-md-12 col-sm-12 text-center">
+          <div class="contact-text ">
             I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
           </div>
         </div>
-        <div class="col-lg-auto">
-          <form action="https://formspree.io/f/xzbkddkz" method="POST">
-            <label>
-            Your email:
-            <input type="text" name="_replyto">
-          </label>
-          </div>
-          <label>
-            Your message:
-            <textarea name="message"></textarea>
-          </label>
-        
-          <!-- your other form fields go here -->
-        
-          <button type="submit">Send</button>
-        </form>
-
-
-      </div>
-
-      </div>
+        <div class="col-lg-auto col-md-12 col-sm-12 contact-form">
+          <form action="https://formspree.io/f/mrgoepnb" method="POST">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="name">First Name</label>
+                <input type="text" class="form-control" name="name" required>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="name">Last Name</label>
+                <input type="text" class="form-control" name="name" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" name="_replyto" placeholder="Enter email address">
+            </div>
+            <div class="form-group">
+              <label for="message">Your message</label>
+              <textarea class="form-control" name="message" placeholder="Hello, Glad to see you" required></textarea>
+            </div>
+            <button type="submit" value="Send" class="btn btn-sm">Submit</button>
+          </form>
+        </div>
       </div>
     </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <ul class="social-links">
+              <a href="https://www.linkedin.com/in/emogene-lukoye-a78b051a3/" target="_blank">
+                <li><i class="fab fa-linkedin-in"></i></li>
+              </a>
+              <a href="https://medium.com/@lukoyedith" target="_blank">
+                <li><i class="fab fa-medium"></i></li>
+              </a>
+              <a href="https://twitter.com/Elukoye1" target="_blank">
+                <li><i class="fab fa-twitter"></i></li>
+              </a>
+              <a href="https://github.com/Elukoye" target="_blank">
+                <li><i class="fab fa-github"></i></li>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
   </main>
 
 
