@@ -121,11 +121,10 @@ margin: 0px 24px;
   letter-spacing: 0.01em;
 }
 .portfolio img{
-  width: 684px;
-  height: 448px;
-  left: 0px;
-  top: 0px;
+  max-width: 100%;
+  height: auto;
 }
+
 .proj-btn{
   display: flex;
   flex-direction: row;
@@ -150,20 +149,15 @@ margin: 0px 24px;
   border: 1px solid #8993A4;
   box-sizing: border-box;
 }
-.card{
+
+.proj-body{
   background: linear-gradient(179.4deg,
    rgba(38, 38, 38, 0) 0.81%,
-   rgba(38, 38, 38, 0.9) 84.03%)
+   rgba(38, 38, 38, 0.9) 84.03%);
+  padding: 0.5rem;
 }
-.card img{
-  height: 435px;
-  width: 369px;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
-  
-}
-.card-body p {
+
+.proj-body p {
   color: #fff;
   font-family: 'Inter',sans-serif;
   font-weight:300;
@@ -175,11 +169,13 @@ margin: 0px 24px;
   align-self: center;
   flex-grow: 0;
   margin: 0px 24px;
+  padding: 0.7rem;
+
 }
-.card-body h5{
-  color: #fff;
+.proj-body h5{
+  color: #091E42;
   font-family: 'crete round',sans-serif;
-  font-weight:400;
+  font-weight:bolder;
   font-style:normal;
   font-size:28px ;
   line-height: 44px;
