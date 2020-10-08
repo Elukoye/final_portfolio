@@ -198,35 +198,28 @@ margin: 0px 24px;
 .card-link button:hover{
   color: #fff;
 }
-
-
-.grp-btn{
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-
-}
-.grp-btn button{
-  background: rgba(255, 255, 255, 0.24);
-  color: #fff;
-  font-family: 'Inter',sans-serif;
-  font-size: 15px;
-  line-height: 20px;
-}
-
 .source-btn{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.live-btn,
+.src-btn{
   background-color:#F55800 ;
   margin: 1rem;
   width: 124px;
-  height: 48px;
+  height: 43px;
+  text-align: center;
   padding: 0.25rem;
+  
 }
-.source-btn a{
+.live-btn a,
+.src-btn a{
   color: #fff;
   font-family: 'Inter',sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 17px;
+  font-size: 13.5px;
   line-height: 24px;
 }
 
